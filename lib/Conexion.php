@@ -4,9 +4,9 @@ class Conexion{
     
     /*Metodo de conexión*/
     var $dbusr="root";
-    var $dbpwd="avaras08";
+    var $dbpwd="javier";
     var $dbhost="localhost";
-    var $dbname="exportaciones";
+    var $dbname="dai";
     
     public function Conectar(){
          $this->objconn = new mysqli($this->dbhost,

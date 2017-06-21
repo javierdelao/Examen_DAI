@@ -1,6 +1,6 @@
 
 <?php 
-  
+    include 'librerias.php';
     session_start();
 ?>
 <!DOCTYPE html>
@@ -12,12 +12,14 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
+       <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+         <script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
+          <script src="js/bootstrap.min.js" type="text/javascript"></script>
         <meta charset="UTF-8">
         <title></title>
     </head>
     <body>
-        <h1>hola mundo</h1>
+        <h1>Hola Mundo</h1>
         
     </body>
     <script>
@@ -42,7 +44,7 @@ and open the template in the editor.
                         
                         });
                     }//Cierre IF Valida blancos
-                else
+                
                     alert("Debe Agregar el usuario y clave");
             });//Click Boton enviar
      });//Function Ready de la página
