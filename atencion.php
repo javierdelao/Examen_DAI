@@ -17,6 +17,7 @@
   <h2>DURALEX</h2>
   <p>Abogados y asociados SA.</p> 
   <p>Nuestra misión es proporcionar asesoría jurídica y aportes académicos con los más altos estándares internacionales de calidad y ética,  entendiendo las necesidades de su negocio y brindando soluciones efectivas, prácticas e inmediatas, adecuadas al entorno cambiante, a través de nuestra sólida y continua formación, experiencia y trabajo en equipo.</p>
+  <p>Ofrecemos un trato cordial, directo, personalizado y especializado mediante la asignación a los abogados y colaboradores de la firma para un seguimiento directo y transparente de cada caso, lo que nos permite ganar la confianza y fidelidad de nuestros clientes.</p>
 
   <ul class="pagination">
     <li><a href="#">HOME</a></li>
@@ -64,7 +65,6 @@
     <div class="row">
       <div class="col-md-4 col-sm-6 footerleft ">
         <div class="logofooter"> Duralex</div>
-        <p>Ofrecemos un trato cordial, directo, personalizado y especializado mediante la asignación a los abogados y colaboradores de la firma para un seguimiento directo y transparente de cada caso, lo que nos permite ganar la confianza y fidelidad de nuestros clientes.</p>
         <p><i class="fa fa-map-pin"></i> Alameda 80, Santiago Centro -   Santiago,  CHILE</p>
         <p><i class="fa fa-phone"></i> Teléfono (Chile) : +569 9999 878 398</p>
         <p><i class="fa fa-envelope"></i> E-mail : duralex@ruralex.com</p>
@@ -105,7 +105,7 @@
 <div class="copyright">
   <div class="container">
     <div class="col-md-6">
-      <p>© 2016 - All Rights with EXAMEN DAI</p>
+      <p>© 2017 - All Rights with EXAMEN DAI</p>
     </div>
     <div class="col-md-6">
       <ul class="bottom_ul">
