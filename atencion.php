@@ -107,7 +107,7 @@
     </div>
     <div class="col-md-6">
       <ul class="bottom_ul">
-        <li><a href="#">dai.com</a></li>
+        <li><a href="#">examen_dai.com</a></li>
         <li><a href="#">About us</a></li>
         <li><a href="#">Blog</a></li>
         <li><a href="#">Faq's</a></li>

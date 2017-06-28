@@ -4,10 +4,9 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /* 
-    Created on : 27-06-2017, 15:15:14
+    Created on : 28-06-2017, 0:02:45
     Author     : JuanCarlos
 */
-
 /*
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
@@ -17,7 +16,6 @@ and open the template in the editor.
     Created on : 27-06-2017, 15:13:16
     Author     : JuanCarlos
 */
-
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
 
 #container1{
@@ -33,14 +31,14 @@ and open the template in the editor.
 
 #container2{
     border-radius: 5px;
-    background-color: #f2f2f2;
     margin-right: 50px;
     margin-left: 50px;
     margin-top: 30px;
     margin-bottom: 30px;
+    height:150px;
 }
 
-footer { background-color:#0c1a1e; min-height:350px; font-family: 'Open Sans', sans-serif; margin-left: 50px; margin-right: 50px; }
+footer { background-color:#0c1a1e; min-height:350px; font-family: 'Open Sans', sans-serif; margin-left: 50px; margin-right: 50px;}
 .footerleft { margin-top:50px; padding:0 36px; }
 .logofooter { margin-bottom:10px; font-size:25px; color:#fff; font-weight:700;}
 
@@ -78,4 +76,5 @@ footer { background-color:#0c1a1e; min-height:350px; font-family: 'Open Sans', s
  .bottom_ul li { float:left; line-height:40px;}
  .bottom_ul li:after { content:"/"; color:#FFF; margin-right:8px; margin-left:8px;}
  .bottom_ul li a { color:#FFF;  font-size:12px;}
+
 

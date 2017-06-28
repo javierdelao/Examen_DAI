@@ -21,9 +21,11 @@ and open the template in the editor.
 }
 
 #container2{
+    border-radius: 5px;
+    background-color: #f2f2f2;
     margin-right: 50px;
     margin-left: 50px;
-    margin-top: 10px;
+    margin-top: 30px;
     margin-bottom: 30px;
 }
 

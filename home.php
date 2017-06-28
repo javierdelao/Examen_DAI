@@ -24,53 +24,42 @@
   </ul>
 </div>
     
-<div class="container" id="container2">
-  <h5>Registro Abogados</h5>
-  <form class="form-horizontal" action="/action_page.php">
-    <div class="form-group">
-      <label class="control-label col-sm-2" for="rut">Rut:</label>
-      <div class="col-sm-10">
-        <input type="text" class="form-control" id="rut_abogado" placeholder="Ingrese rut" name="rut_abogado">
+<div class="container" id="container2"> 
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+          <img src="img/la.jpg" alt="Los Angeles" style="width:100%;">
+      </div>
+
+      <div class="item">
+          <img src="img/chicago.jpg" alt="Chicago" style="width:100%;">
+      </div>
+    
+      <div class="item">
+          <img src="img/ny.jpg" alt="New york" style="width:100%;">
       </div>
     </div>
-    <div class="form-group">
-      <label class="control-label col-sm-2">Nombre completo:</label>
-      <div class="col-sm-10">          
-          <input type="text" class="form-control" id="nombre_abogado" placeholder="Ingrese nombre completo" name="nombre_abogado">
-      </div>
-    </div>
-      <div class="form-group">
-      <label class="control-label col-sm-2" for="rut">Fecha contratación:</label>
-      <div class="col-sm-10">
-        <input type="date" class="form-control" id="fecha_abogado"  name="fecha_abogado">
-      </div>
-    </div>
-        <div class="form-group">
-      <label class="control-label col-sm-2" for="rut">Especialidad:</label>
-      <div class="col-sm-10">
-        <input type="text" class="form-control" id="especialidad_abogado" placeholder="Ingrese especialidad" name="especialidad_abogado">
-      </div>
-    </div>
-    <div class="form-group">
-      <label class="control-label col-sm-2">Valor hora:</label>
-      <div class="col-sm-10">          
-          <input type="text" class="form-control" id="valor_abogado" placeholder="Ingrese valor hora" name="valor_abogado">
-      </div>
-    </div>
-   
-    <div class="form-group">        
-      <div class="col-sm-offset-2 col-sm-10">
-         <input type="button" class="btn btn-info" value="Input Button">
-      </div>
-    </div>
-      
-   <div class="form-group">        
-      <div class="col-sm-offset-2 col-sm-10">
-        <button type="submit" class="btn btn-default">Enviar</button>
-      </div>
-    </div>   
-  </form>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
 </div>
+
   <link href="https://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css" rel="stylesheet">
 <!--footer start from here-->
 <footer>
@@ -136,3 +125,5 @@
     
 </body>
 </html>
+
+
