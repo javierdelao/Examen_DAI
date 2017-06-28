@@ -15,7 +15,7 @@
 
 <div class="container" id="container1">
   <h2>DURALEX</h2>
-  <p>Abogados y asociados</p>                  
+  <p>Abogados y asociados SA.</p>                  
   <ul class="pagination">
     <li><a href="#">HOME</a></li>
     <li><a href="#">CLIENTES</a></li>
