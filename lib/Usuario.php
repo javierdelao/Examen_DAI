@@ -6,6 +6,7 @@
      var $clave;
      
      function __construct($usu="",$clave=""){
+
          $this->nombre=$usu;
          $this->clave=$clave;
      }
@@ -14,10 +15,11 @@
      function VerificaUsuario(){
          $oConn=new Conexion();
          
-         if ($oConn->Conectar())
+         if ($oConn->Conectar()){
              $db=$oConn->objconn;
-         else
+         }else{
              return false;
+         }
          
          $sql="SELECT * FROM acceso WHERE nomusuario='$this->nombre'";
          
@@ -27,6 +29,28 @@
              return true;
          else
              return false;
+         
+     }
+       public  function VerificacionAcceso($usu="",$clave=""){
+         $oConn=new Conexion();
+         
+         if ($oConn->Conectar())
+             $db=$oConn->objconn;
+         else
+             return false;
+         
+         $sql="SELECT * FROM cliente WHERE nomusuario='$this->nombre'";
+         
+         $resultado=$db->query($sql);
+                
+         if ($resultado->num_rows>=1){
+            print_r($resultado);
+
+             return true;
+        
+         }else{
+             return false;
+         }
          
      }
      

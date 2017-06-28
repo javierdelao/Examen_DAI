@@ -20,10 +20,10 @@
   <p>Ofrecemos un trato cordial, directo, personalizado y especializado mediante la asignación a los abogados y colaboradores de la firma para un seguimiento directo y transparente de cada caso, lo que nos permite ganar la confianza y fidelidad de nuestros clientes.</p>
 
   <ul class="pagination" id="pagination">
-    <li><a href="#">HOME</a></li>
-    <li><a href="#">CLIENTES</a></li>
-    <li><a href="#">ABOGADOS</a></li>
-    <li><a href="#">ATENCIÓN</a></li>
+    <li><a href="home.php">HOME</a></li>
+    <li><a href="clientes.php">CLIENTES</a></li>
+    <li><a href="abogados.php">ABOGADOS</a></li>
+    <li><a href="atencion.php">ATENCIÓN</a></li>
   </ul>
 </div>
     
