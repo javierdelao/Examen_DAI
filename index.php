@@ -1562,15 +1562,16 @@ body>#login form#change_password button {
 
 <body>
 
-  <div id="login">
-  <form id="login_form" action="controlador/valida.php">
+    <div id="login">
+  <form id="login_form" action="controlador/valida.php"style="border-color: #0c1a1e;background-color: #f2f2f2;">
+      <img src="img/img_avatar2.png" alt="Los Angeles" style="width:40%;">
     <div class="field_container">
-      <input type="text" placeholder="Rut" name="usuario">
+        <input type="text" placeholder="Rut" name="usuario" style="width:100%;  margin-top: 20px;">
     </div>
     
     <div class="field_container">
-      <input type="Password" placeholder="Contraseña" name="clave">
-      <button id="sign_in_button">
+      <input type="Password" placeholder="Contraseña" name="clave" style="width:100%;margin-top: 20px;">
+      <button id="sign_in_button" style="width:100%; margin-top: 20px; height:40px;background-color:#00BFFF">
         <span class="button_text">Ingresar</span>
       </button>
     </div>
